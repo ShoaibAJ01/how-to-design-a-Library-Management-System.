@@ -1,0 +1,74 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container styling */
+.login-container,
+.signup-container,
+.admin-view-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+/* Book list container */
+#book-list-container {
+    margin-top: 20px;
+}
+
+#book-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#book-list-container th,
+#book-list-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#search-bar {
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    width: 300px;
+    font-size: 16px;
+}
